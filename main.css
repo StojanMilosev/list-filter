@@ -8,3 +8,30 @@
     margin: auto;
     padding: 50px;
 }
+.filter-box{
+    width: 300px;
+    margin: auto;
+}
+#filter-input{
+    display: block;
+    margin: 10px auto;
+    padding: 3px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 3px;
+    width: 150px;
+    height: 24px;
+}
+#filter-list{
+    list-style-type: none;
+    border: solid 2px darkolivegreen;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#filter-list li:nth-child(odd){
+    background-color: lightgray; 
+}
+li{
+    padding: 5px;
+    text-align: center;
+}
